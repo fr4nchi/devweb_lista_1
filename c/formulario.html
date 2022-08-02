@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <fieldset > <h3>Cadastro do cliente</h3>
 
+    <form action="http://localhost:3003/usuarios"></form>
+    Nome: <input type="text" name="nome" id=""><P></P>
+    <div>
+        Sexo <input type="radio" name="Sexo" value="Sexo" id="">Masculino
+        <input type="radio" name="Sexo" value="Sexo" id="">Feminino
+    </div><p></p>
+    Idade: <input type="number" name="Idade" id=""><p></p>
+    Endereço <input type="text" name="endereço" id=""><p></p>
+    Cidade <input type="text" name="cidade" id=""><p></p>
+
+    Estado:
+    <select name="" id="">
+        <option value="">UF</option>
+        <option value="">PA</option>
+        <option value="">GO</option>
+        <option value="">SP</option>
+    </select><p></p>
+
+    CEP: <input type="number" name="cep" id=""><p></p>
+    Tel/Res: <input type="number" id=""><p></p>
+    Tel/Cel: <input type="number" id=""><p></p>
+    email: <input type="text" name="email" id=""><p></p>
+
+    <button><b>Incluir</b></button>
+</body>
+
+</fieldset>
+<style>
+    input[type=text]{
+        width: 500px;
+    }
+    body {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: 100px;
+    padding: 0px;
+    }
+    button{
+        color: brown;
+
+    }
+</style>
+
+</html>
